@@ -1,1 +1,49 @@
-
+h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 8vh;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+}
+h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 6vh;
+    text-align: center;
+    margin: 1vh;
+}
+h3 {
+    text-align: center;
+    font-size: 6.5vh;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    position: relative;
+    top: 10vh;
+}
+#project1 {
+    display: inline-block;
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+#projects_container {
+    align-self: center;
+}
+#project2 {
+    position: relative;
+    left: 0vw;
+    bottom: 0vh;
+}
+.project_name {
+    display: inline-block;
+    position: relative;
+    right: 0vw;
+}
+#projects_container {
+    align-content: center;
+    width: 60vw;
+    position: relative;
+    left: 20vw;
+}
+#projects_title {
+    text-align: center;
+}
+.Project {
+}
