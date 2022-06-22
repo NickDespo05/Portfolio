@@ -1,16 +1,19 @@
 * {
     position: relative;
 }
+body {
+    background-color: #03254c;
+}
 h1 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 8vh;
+    font-size: 10vh;
     text-align: center;
     margin-top: 2vh;
     margin-bottom: 0vh;
 }
 h2 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 6vh;
+    font-size: 8vh;
     text-align: center;
     margin: 1vh;
 }
@@ -28,11 +31,6 @@ h3 {
 #projects_container {
     align-self: center;
 }
-#project2 {
-    position: relative;
-    left: 0vw;
-    bottom: 0vh;
-}
 .project_name {
     display: inline-block;
     position: relative;
@@ -41,13 +39,14 @@ h3 {
     bottom: 26vh;
     font-size: 9vh;
     font-family: "Courier New", Courier, monospace;
-    background-color: orange;
+    background-color: #1167b1;
     width: 30vw;
     text-align: center;
     padding: right 0.5vw, left 0.5vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
     font-weight: bold;
+    opacity: 0.8;
 }
 #projects_container {
     align-content: center;
@@ -55,9 +54,15 @@ h3 {
     position: relative;
     left: 15vw;
 }
-#projects_title {
-    right: 8vw;
+#project_ending {
+    top: -130vh;
+}
+.projects_title {
+    right: 20vw;
     margin-bottom: 10vh;
+    font-size: 10vh;
+    top: 5vh;
+    text-align: left;
 }
 #bootcamp_certificate {
     width: 20vw;
@@ -69,20 +74,87 @@ h3 {
 .project_image {
     width: 20vw;
     padding: 5vh;
-    background-color: yellow;
+    background-color: #b0dbf1;
+    opacity: 0.8;
 }
 .project_desc {
     width: 25vw;
     font-size: 2.5vh;
     font-weight: bolder;
     display: inline-block;
-    left: 25vw;
-    bottom: 35vh;
-    background-color: red;
+    left: 24vw;
+    bottom: 39vh;
+    background-color: #02055a;
     padding: 2vh;
     font-family: "Courier New", Courier, monospace;
+    opacity: 0.8;
 }
 .Project {
+    color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+.Project2 {
+    color: #f0f8ff;
+    bottom: 30vh;
+}
+.project_name2 {
+    display: inline-block;
+    position: relative;
+    right: 33vw;
+    text-align: left;
+    bottom: 26vh;
+    font-size: 9vh;
+    font-family: "Courier New", Courier, monospace;
+    background-color: #1167b1;
+    width: 30vw;
+    text-align: center;
+    padding: right 0.5vw, left 0.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.project_desc2 {
+    width: 25vw;
+    font-size: 2.5vh;
+    font-weight: bolder;
+    display: inline-block;
+    right: 6vw;
+    bottom: 39vh;
+    background-color: #02055a;
+    padding: 2vh;
+    font-family: "Courier New", Courier, monospace;
+    opacity: 0.8;
+}
+.project_image2 {
+    width: 20vw;
+    padding: 5vh;
+    background-color: #b0dbf1;
+    opacity: 0.8;
+    left: 20vw;
+}
+#project_3 {
+    bottom: 60vh;
+}
+#project_4 {
+    bottom: 90vh;
+}
+#profile_picture {
+    left: 80vw;
+    top: 5vh;
+    position: absolute;
+}
+#background_pic {
+    width: 30vw;
+    height: 40vh;
+    position: absolute;
+    left: 68vw;
+    top: -2vh;
+    z-index: -1;
+    opacity: 0.2;
+    border-radius: 10%;
+    border: solid 1.5em rgba(#000, 0.2);
 }
 @media screen and (max-width: 1420px) {
     .project_name {
