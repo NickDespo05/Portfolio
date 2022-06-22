@@ -2,13 +2,14 @@
     position: relative;
 }
 body {
-    background-color: #03254c;
+    background-color: #02055a;
 }
 h1 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-family: lobster;
     font-size: 10vh;
     text-align: center;
     margin-top: 2vh;
+    font-weight: 10;
     margin-bottom: 0vh;
 }
 h2 {
@@ -145,17 +146,16 @@ h3 {
     top: 5vh;
     position: absolute;
 }
-#background_pic {
-    width: 30vw;
-    height: 40vh;
+.background_pic {
+    width: 98vw;
+    height: 300vh;
     position: absolute;
-    left: 68vw;
-    top: -2vh;
+    left: 0vw;
+    top: 0vh;
     z-index: -1;
-    opacity: 0.2;
-    border-radius: 10%;
-    border: solid 1.5em rgba(#000, 0.2);
+    opacity: 0.3;
 }
+
 @media screen and (max-width: 1420px) {
     .project_name {
         right: 8.5vw;
