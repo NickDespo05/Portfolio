@@ -1,3 +1,6 @@
+* {
+    position: relative;
+}
 h1 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 8vh;
@@ -21,7 +24,6 @@ h3 {
 #project1 {
     display: inline-block;
     margin-top: 10vh;
-    margin-left: 10vh;
 }
 #projects_container {
     align-self: center;
@@ -34,16 +36,56 @@ h3 {
 .project_name {
     display: inline-block;
     position: relative;
-    right: 0vw;
+    right: 2vw;
+    text-align: left;
+    bottom: 26vh;
+    font-size: 9vh;
+    font-family: "Courier New", Courier, monospace;
+    background-color: orange;
+    width: 30vw;
+    text-align: center;
+    padding: right 0.5vw, left 0.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-weight: bold;
 }
 #projects_container {
     align-content: center;
     width: 60vw;
     position: relative;
-    left: 20vw;
+    left: 15vw;
 }
 #projects_title {
-    text-align: center;
+    right: 8vw;
+    margin-bottom: 10vh;
+}
+#bootcamp_certificate {
+    width: 20vw;
+    height: auto;
+    position: relative;
+    top: 5vh;
+    left: 40vw;
+}
+.project_image {
+    width: 20vw;
+    padding: 5vh;
+    background-color: yellow;
+}
+.project_desc {
+    width: 25vw;
+    font-size: 2.5vh;
+    font-weight: bolder;
+    display: inline-block;
+    left: 25vw;
+    bottom: 35vh;
+    background-color: red;
+    padding: 2vh;
+    font-family: "Courier New", Courier, monospace;
 }
 .Project {
+}
+@media screen and (max-width: 1420px) {
+    .project_name {
+        right: 8.5vw;
+    }
 }
