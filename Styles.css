@@ -85,7 +85,7 @@ h3 {
     display: inline-block;
     left: 24vw;
     bottom: 39vh;
-    background-color: #02055a;
+    background-color: #111694;
     padding: 2vh;
     font-family: "Courier New", Courier, monospace;
     opacity: 0.8;
@@ -123,7 +123,7 @@ h3 {
     display: inline-block;
     right: 6vw;
     bottom: 39vh;
-    background-color: #02055a;
+    background-color: #111694;
     padding: 2vh;
     font-family: "Courier New", Courier, monospace;
     opacity: 0.8;
@@ -147,15 +147,39 @@ h3 {
     position: absolute;
 }
 .background_pic {
-    width: 98vw;
-    height: 300vh;
+    width: 98.6vw;
+    height: 130vh;
     position: absolute;
-    left: 0vw;
-    top: 0vh;
+    left: -0.5vw;
+    top: -2vh;
     z-index: -1;
-    opacity: 0.3;
+    opacity: 1;
+    filter: blur(6px);
 }
-
+#blur2 {
+    top: 4vh;
+    opacity: 0.8;
+    filter: blur(7px);
+    z-index: -2;
+}
+#blur3 {
+    top: 8vh;
+    opacity: 0.7;
+    filter: blur(9px);
+    z-index: -2;
+}
+#blur4 {
+    top: 10vh;
+    opacity: 0.6;
+    filter: blur(11px);
+    z-index: -2;
+}
+#blur4 {
+    top: 12vh;
+    opacity: 0.5;
+    filter: blur(12px);
+    z-index: -2;
+}
 @media screen and (max-width: 1420px) {
     .project_name {
         right: 8.5vw;
