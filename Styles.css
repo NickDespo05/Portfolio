@@ -164,11 +164,7 @@ h3 {
 #project_4 {
     bottom: 90vh;
 }
-#profile_picture {
-    left: 80vw;
-    top: 5vh;
-    position: absolute;
-}
+
 .background_pic {
     width: 98.6vw;
     height: 130vh;
@@ -205,10 +201,48 @@ h3 {
 }
 .reveal {
     opacity: 0;
+    transform: translateY(100px);
+    transition-duration: 1000ms;
 }
 .active {
     transform: translateY(0px);
     opacity: 1;
+}
+#profile_section {
+    position: relative;
+    bottom: 140vh;
+    margin-left: 10vw;
+}
+.about_title {
+    font-size: 10vh;
+    right: 36vw;
+}
+#profile_pic {
+    left: 36vw;
+    bottom: 36vh;
+    z-index: 5;
+}
+#hexagons {
+    width: 40vw;
+    left: 10vw;
+}
+#hexagon_picture {
+    top: 35vh;
+}
+.about_me_thing {
+    width: 20vw;
+    border-color: #b0dbf1;
+    border-width: 4px;
+}
+.thing_desc {
+    font-size: 3vh;
+    font-weight: bold;
+    color: #b0dbf1;
+    top: 4vh;
+    text-align: center;
+}
+.thing_title {
+    color: #ffffff;
 }
 @media screen and (max-width: 1420px) {
     .project_name {
