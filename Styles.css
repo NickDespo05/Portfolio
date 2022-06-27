@@ -210,39 +210,89 @@ h3 {
 }
 #profile_section {
     position: relative;
-    bottom: 140vh;
-    margin-left: 10vw;
+    bottom: 160vh;
+    margin-left: 8vw;
 }
 .about_title {
     font-size: 10vh;
-    right: 36vw;
+    right: 35vw;
+    top: 25vh;
 }
 #profile_pic {
-    left: 36vw;
+    left: 35vw;
     bottom: 36vh;
     z-index: 5;
+    width: 10vw;
 }
 #hexagons {
     width: 40vw;
     left: 10vw;
+    filter: brightness(40%);
 }
 #hexagon_picture {
     top: 35vh;
 }
 .about_me_thing {
     width: 20vw;
-    border-color: #b0dbf1;
-    border-width: 4px;
 }
 .thing_desc {
     font-size: 3vh;
     font-weight: bold;
     color: #b0dbf1;
-    top: 4vh;
+    top: 1vh;
     text-align: center;
 }
 .thing_title {
     color: #ffffff;
+    top: 5vh;
+}
+#about_me_things {
+    bottom: 100vh;
+}
+#thing1 {
+    left: 57vw;
+    top: 20vh;
+}
+#thing2 {
+    bottom: 14.5vh;
+    left: 6vw;
+}
+#thing3 {
+    top: 40vh;
+    left: 6vw;
+}
+#thing4 {
+    bottom: -8vh;
+    left: 55vw;
+}
+.connect_line {
+    width: 7vw;
+
+    height: 0.2vw;
+    background-color: white;
+}
+#line1 {
+    transform: rotate(35deg);
+    bottom: 85vh;
+    right: 16vw;
+}
+#line2 {
+    left: 10vw;
+    transform: rotate(145deg);
+    bottom: 87vh;
+}
+#line3 {
+    transform: rotate(135deg);
+    right: 17vw;
+    bottom: 20vh;
+}
+#line4 {
+    left: 12vw;
+    bottom: 24vh;
+    transform: rotate(45deg);
+}
+#bottom_about {
+    top: -5vh;
 }
 @media screen and (max-width: 1420px) {
     .project_name {
